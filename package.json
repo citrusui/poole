@@ -1,0 +1,28 @@
+{
+  "name": "@citrusui/poole",
+  "version": "0.1.0",
+  "description": "Personal fork of Poole for my own projects",
+  "scripts": {
+    "lint": "sass-lint -c .sass-lint.yml '_sass/*.scss' -v -q",
+    "publish": "npm run lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/citrusui/poole.git"
+  },
+  "keywords": [
+    "poole",
+    "css",
+    "scss",
+    "jekyll"
+  ],
+  "author": "Avery Magnotti",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/citrusui/poole/issues"
+  },
+  "homepage": "https://github.com/citrusui/poole",
+  "devDependencies": {
+    "sass-lint": "^1.10.2"
+  }
+}
