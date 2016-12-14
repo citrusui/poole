@@ -66,3 +66,21 @@ hr {
   border: 0;
   border-top: 1px solid $border-color;
 }
+
+blockquote {
+  margin: .8rem 0;
+  padding: .5rem 1rem;
+  border-left: .25rem solid $border-color;
+  color: $gray-3;
+
+  p {
+    &:last-child {
+      margin-bottom: 0;
+  }
+}
+
+  @media (min-width: 30em) {
+    padding-right: 5rem;
+    padding-left: 1.25rem;
+  }
+}
