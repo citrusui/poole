@@ -4,7 +4,7 @@ A modernized fork of [Poole](http://getpoole.com) designed for Jekyll 3.0+.
 
 # Example site
 
-[View it here](https://citrusui.github.io/poole)
+[View the live demo here.](https://citrusui.github.io/poole/)
 
 # What's New
 
