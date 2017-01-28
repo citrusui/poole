@@ -1,7 +1,8 @@
 {
   "name": "@citrusui/poole",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Modernized fork of Poole designed for Jekyll 3.0+.",
+  "main": "docs/dist/poole.min.css",
   "scripts": {
     "lint": "sass-lint -c .sass-lint.yml \"scss/*.scss\" -v -q",
     "min": "node-sass --output-style compressed scss/poole.scss > dist/poole.min.css",

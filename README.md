@@ -19,6 +19,10 @@ A modernized fork of [Poole](http://getpoole.com) designed for Jekyll 3.0+.
   - Every color is now specified as a variable
   - Added `-webkit-tap-highlight-color: transparent`
 
-## License
+# Download
+
+See the [releases](https://github.com/citrusui/poole/releases) page to download an archive of the source code or the compiled CSS.
+
+# License
 
 Poole is originally developed by Mark Otto under the [MIT license.](https://github.com/poole/poole/blob/master/LICENSE.md)
