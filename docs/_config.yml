@@ -1,0 +1,19 @@
+permalink: pretty # URLs will contain a trailing slash
+author: Your Name Here
+email: example@example.com
+url: https://citrusui.github.io/poole # Replace with your domain name
+description:
+  - An example Jekyll blog using Poole. Replace this text with a description of your site.
+repo: https://github.com/citrusui/poole # If applicable
+sass:
+  style: :compressed
+# See https://pages.github.com/versions/ for a full list of supported plugins
+gems:
+  - jekyll-feed
+  - jekyll-gist
+  - jekyll-mentions
+  - jekyll-paginate
+  - jekyll-sitemap
+title: Poole Example
+paginate: 1 # Recommended values: 4-6
+paginate_path: "/page/:num/"

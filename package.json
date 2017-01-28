@@ -1,10 +1,12 @@
 {
   "name": "@citrusui/poole",
-  "version": "1.1.1",
+  "version": "1.2.0",
   "description": "Modernized fork of Poole designed for Jekyll 3.0+.",
   "scripts": {
-    "lint": "sass-lint -c .sass-lint.yml '_sass/*.scss' -v -q",
-    "publish": "npm run lint"
+    "lint": "sass-lint -c .sass-lint.yml \"scss/*.scss\" -v -q",
+    "min": "node-sass --output-style compressed scss/poole.scss > dist/poole.min.css",
+    "publish": "npm run lint && npm run sass && npm run min",
+    "sass": "node-sass --output-style expanded scss/poole.scss > dist/poole.css"
   },
   "repository": {
     "type": "git",
@@ -23,6 +25,8 @@
   },
   "homepage": "https://citrusui.github.io/poole/",
   "devDependencies": {
+    "node-sass": "^4.4.0",
+    "release": "^1.1.5",
     "sass-lint": "^1.10.2"
   }
 }
