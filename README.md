@@ -6,16 +6,18 @@ A modernized fork of [Poole](http://getpoole.com) designed for Jekyll 3.0+.
 
 # Example site
 
-[View the live demo here.](https://citrusui.github.io/poole/)
+[View the live demo here!](https://citrusui.github.io/poole/)
 
-# What's New
+# What's Different?
 
-- Added files
+- ## Added files
+
   - Implementation of [`sass-lint`](https://github.com/brigade/scss-lint) using [these rules](.sass-lint.yml)
   - Basic button styles (`_buttons.scss`)
   - Navbar styles (`_navbar.scss`)
 
-- Styles
+- ## Style changes
+
   - Lots of formatting changes
   - Eliminate almost all vendor prefixes
   - Every color is now specified as a variable
