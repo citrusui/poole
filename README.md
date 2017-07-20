@@ -1,7 +1,5 @@
 # [@citrusui/poole](https://npmjs.com/package/@citrusui/poole)
 
-[![Greenkeeper badge](https://badges.greenkeeper.io/citrusui/poole.svg)](https://greenkeeper.io/)
-
 A modernized fork of [Poole](http://getpoole.com) designed for Jekyll 3.0+.
 
 # Example site
