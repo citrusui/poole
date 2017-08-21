@@ -7,6 +7,6 @@
   margin-bottom: 1rem;
   padding: 1rem;
   border-radius: 5px;
-  background-color: $gray-1;
-  color: $gray-3;
+  background-color: lighten($body-bg, 10%);
+  color: $gray-4;
 }

@@ -19,6 +19,7 @@ html {
   font-size: $root-font-size;
   line-height: $root-line-height;
   -webkit-tap-highlight-color: transparent;
+
   @media (min-width: $large-breakpoint) {
     font-size: $large-font-size;
   }
@@ -42,6 +43,12 @@ a {
 
   strong {
     color: inherit;
+  }
+}
+
+del {
+  a {
+    color: $body-color;
   }
 }
 

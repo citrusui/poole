@@ -1,41 +1,41 @@
-$gray-1: #f9f9f9;
-$gray-2: #ccc;
-$gray-3: #767676;
-$gray-4: #515151;
-$gray-5: #313131;
+$gray-1: #f9f9f9 !default;
+$gray-2: #ccc !default;
+$gray-3: #767676 !default;
+$gray-4: #515151 !default;
+$gray-5: #313131 !default;
 
-$red: #ac4142;
-$orange: #d28445;
-$yellow: #f4bf75;
-$green: #90a959;
-$cyan: #75b5aa;
-$blue: #4ea5d9;
-$brown: #8f5536;
-$white: #fff;
+$red: #ac4142 !default;
+$orange: #d28445 !default;
+$yellow: #f4bf75 !default;
+$green: #90a959 !default;
+$cyan: #75b5aa !default;
+$blue: #2b66bf !default;
+$brown: #8f5536 !default;
+$white: #fff !default;
 
-$brand-outlook: #0078d7;
-$brand-twitter: #1da1f2;
-$brand-paypal: #009cde;
+$brand-outlook: #0078d7 !default;
+$brand-twitter: #1da1f2 !default;
+$brand-paypal: #009cde !default;
 
-$button-border: rgba(16, 22, 26, .1);
-$button-border-darker: opacify($button-border, .2);
-$button-gradient: rgba(255, 255, 255, 0);
-$button-gradient-darker: opacify($button-gradient, .1);
-$button-shadow: opacify($button-border, .1);
+$button-border: rgba(16, 22, 26, .1) !default;
+$button-border-darker: opacify($button-border, .2) !default;
+$button-gradient: rgba(255, 255, 255, 0) !default;
+$button-gradient-darker: opacify($button-gradient, .1) !default;
+$button-shadow: opacify($button-border, .1) !default;
 
-$root-font-family: "Segoe UI", system-ui, Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+$root-font-family: "Segoe UI", system-ui, Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !default;
 
-$root-font-size: 16px;
-$root-line-height: 1.5;
+$root-font-size: 16px !default;
+$root-line-height: 1.5 !default;
 
-$body-color: $gray-4;
-$body-bg: $white;
-$link-color: $blue;
+$body-color: $gray-4 !default;
+$body-bg: darken($white, 5%) !default;
+$link-color: $blue !default;
 
-$border-color: #e5e5e5;
+$border-color: #e5e5e5 !default;
 
-$large-breakpoint: 38em;
-$large-font-size: 20px;
+$large-breakpoint: 38em !default;
+$large-font-size: 20px !default;
 
-$code-font-family: Menlo, Monaco, "Courier New", monospace;
-$code-color: #bf616a;
+$code-font-family: Menlo, Monaco, "Courier New", monospace !default;
+$code-color: #bf616a !default;

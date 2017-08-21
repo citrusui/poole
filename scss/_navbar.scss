@@ -35,16 +35,17 @@ nav {
   overflow: auto;
 
   a {
-    &:active,
-    &:focus {
-      color: $blue;
+    &:focus,
+    &:hover {
+      color: $gray-4;
       text-decoration: none;
       opacity: 1;
     }
 
-    &:hover {
+    &:active {
+      color: $gray-4;
       text-decoration: none;
-      opacity: .7;
+      opacity: .8;
     }
   }
 }
@@ -55,13 +56,14 @@ nav {
     vertical-align: middle;
     fill: $body-color;
 
-    &:active {
+    &:focus,
+    &:hover {
       opacity: 1;
-      fill: $blue;
+      fill: $gray-4;
     }
-  }
 
-  &:hover {
-    opacity: .7;
+    &:active {
+      opacity: .8;
+    }
   }
 }

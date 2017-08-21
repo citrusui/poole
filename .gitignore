@@ -1,4 +1,3 @@
 docs/_site
 node_modules
-scss/_custom.scss
 *.log

@@ -9,8 +9,8 @@ pre {
 code {
   padding: .25em .5em;
   border-radius: 3px;
-  background-color: $gray-1;
-  color: $code-color;
+  background-color: darken($body-bg, 10%);
+  color: lighten($body-color, 10%);
   font-size: 85%;
 }
 
@@ -23,7 +23,7 @@ pre {
   code {
     padding: 0;
     background-color: transparent;
-    color: inherit;
+    color: $gray-4;
     font-size: 100%;
   }
 }
@@ -33,7 +33,7 @@ pre {
   margin-bottom: 1rem;
   padding: 1rem;
   border-radius: .25rem;
-  background-color: $gray-1;
+  background-color: lighten($body-bg, 10%);
   font-size: .8rem;
   line-height: 1.4;
 
