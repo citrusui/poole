@@ -4,13 +4,14 @@ $gray-3: #767676 !default;
 $gray-4: #515151 !default;
 $gray-5: #313131 !default;
 
-$red: #ac4142 !default;
-$orange: #d28445 !default;
-$yellow: #f4bf75 !default;
-$green: #90a959 !default;
-$cyan: #75b5aa !default;
-$blue: #2b66bf !default;
+$red: #f74a4d !default;
+$orange: #f7a04a !default;
+$yellow: #f7f54a !default;
+$green: #4af79e !default;
+$cyan: #4ae9f7 !default;
+$blue: #4aa1f7 !default;
 $brown: #8f5536 !default;
+$black: #000 !default;
 $white: #fff !default;
 
 $brand-outlook: #0078d7 !default;
@@ -29,7 +30,7 @@ $root-font-size: 18px !default;
 $root-line-height: 1.5 !default;
 
 $body-color: $gray-4 !default;
-$body-bg: darken($white, 5%) !default;
+$body-bg: $white !default;
 $link-color: $blue !default;
 
 $border-color: #e5e5e5 !default;
