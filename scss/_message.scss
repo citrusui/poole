@@ -14,3 +14,11 @@
     color: inherit;
   }
 }
+
+// hacky syntax. please clean up ASAP.
+
+@supports (color: color(display-p3 0 0 0)) {
+  .message {
+    background-color: $red-p3;
+  }
+}
